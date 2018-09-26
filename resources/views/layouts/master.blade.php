@@ -8,8 +8,8 @@
 	<link rel="stylesheet" type="text/css" href="{{asset('css/app.css')}}">
 	<link rel="icon" href="{{asset('img/santayo_logo.png')}}">
 	<script src="{{asset('js/jquery-3.3.1.min.js')}}"></script>
-	@yield('javascript_header')
 	@yield('page_css')
+	@yield('javascript_header')
 </head>
 <body>
 <div class="grid-container">
